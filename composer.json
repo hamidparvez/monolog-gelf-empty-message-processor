@@ -1,0 +1,21 @@
+{
+  "name": "hamiduzzaman/monolog-gelf-empty-message-processor",
+  "description": "Monolog processor for handling empty string as short message",
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Hamiduzzaman",
+      "email": "hamid.official@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Hamid\\": "src/Hamid/"
+    }
+  }
+}
